@@ -2,10 +2,10 @@
 
 var ffmapConfig = {
   // link to your main community site:
-  url:       "https://muenchen.freifunk.net",
+  url:       "http://freifunk-muenchen.de",
   
   // visible link in the navigation:
-  sitename:  "muenchen.freifunk.net",
+  sitename:  "www.freifunk-muenchen.de",
   
   // initial gravity, friction, of the graph at pageload:
   gravity:   0.03,
