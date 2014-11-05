@@ -5,7 +5,7 @@ GRAPH_SRC   = config.js lib/loader.js lib/links.js lib/pacman.js lib/graph.js li
 LIST_SRC    = config.js lib/loader.js lib/links.js lib/list.js lib/init.js
 STATS_SRC   = config.js lib/loader.js lib/stats.js lib/init.js
 
-all: geomap_compiled.js graph_compiled.js list_compiled.js stats_compiled.js
+all: geomap_compiled.js graph_compiled.js list_compiled.js
 
 clean:
 	rm -f geomap_compiled.js
