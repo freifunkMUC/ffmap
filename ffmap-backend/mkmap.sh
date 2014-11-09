@@ -5,7 +5,7 @@ cd $(dirname $0)
 export PATH=/usr/sbin:/usr/local/sbin:$PATH
 
 PEERS=/etc/fastd/ffm-mesh-vpn/peers/
-ALIASES="$(dirname "$0")"/aliases.json
+ALIASES="$(dirname "$0")"/aliases_fastd.json
 DEST="$(dirname "$0")"/../
 
 set -e
