@@ -1,3 +1,5 @@
 nodes.json
 /nodes
+/ffmap-backend/nodedb
+/ffmap-backend/__pycache__
 *_compiled.js
