@@ -1,6 +1,7 @@
 nodes.json
 nodes_load.json
 /nodes
+/peers
 /ffmap-backend/nodedb/*
 /ffmap-backend/__pycache__
 *_compiled.js
