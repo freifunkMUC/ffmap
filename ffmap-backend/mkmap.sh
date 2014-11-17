@@ -1,18 +1,16 @@
 #!/bin/bash
 
-cd $(dirname $0)
+THISDIR=$(dirname $0)
+cd $THISDIR
 
 export PATH=/usr/sbin:/usr/local/sbin:$PATH
 
-PEERS=/etc/fastd/ffm-mesh-vpn/peers/
-ALIASES="$(dirname "$0")"/aliases_fastd.json
-DEST="$(dirname "$0")"/../
+PEERS=peers/
+ALIASES=aliases_fastd.json
+DEST=../
 
 set -e
 
-"$(dirname "$0")"/mkaliases.py -p $PEERS -d $ALIASES
-"$(dirname "$0")"/bat2nodes.py -A -a $ALIASES -a "$(dirname "$0")"/aliases.json -o -d $DEST
-#./bat2nodes.py -A -m bat0 -d $DEST
-#"$(dirname "$0")"/bat2nodes.py -A -d $DEST
-
+./mkaliases.py -p $PEERS -d $ALIASES
+./bat2nodes.py -A -a $ALIASES -a aliases.json -o -d $DEST
 

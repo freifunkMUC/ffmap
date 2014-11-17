@@ -17,4 +17,5 @@ var ffmapConfig = {
 
   // path to the nodes.json
   nodes_json: "nodes.json",
+  rrd_db:     "/ffmap-backend/nodedb",
 };
