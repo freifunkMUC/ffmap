@@ -2,6 +2,7 @@ nodes.json
 nodes_load.json
 /nodes
 /ffmap-backend/peers
+/ffmap-backend/aliases_fastd.json
 /ffmap-backend/nodedb/*
 /ffmap-backend/__pycache__
 *_compiled.js
