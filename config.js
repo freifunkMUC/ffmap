@@ -17,5 +17,5 @@ var ffmapConfig = {
 
   // path to the nodes.json
   nodes_json: "nodes.json",
-  rrd_db:     "/ffmap-backend/nodedb",
+  munin_path: "http://89.22.97.5/munin/vs3666/munin.vs3666/",
 };
