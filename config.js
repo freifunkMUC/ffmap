@@ -17,5 +17,5 @@ var ffmapConfig = {
 
   // path to the nodes.json
   nodes_json: "nodes.json",
-  munin_path: "http://89.22.97.5/munin/vs3666/munin.vs3666/",
+  munin_path: "http://status.freifunk-muenchen.de/munin-cgi/munin-cgi-graph/freifunk-muenchen.de/srv01.freifunk-muenchen.de/",
 };
