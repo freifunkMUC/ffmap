@@ -18,4 +18,12 @@ var ffmapConfig = {
   // path to the nodes.json
   nodes_json: "nodes.json",
   munin_path: "http://status.freifunk-muenchen.de/munin-cgi/munin-cgi-graph/freifunk-muenchen.de/srv01.freifunk-muenchen.de/",
+
+  // geomap display settings
+  constrainBounds: true,
+  constrainedBound00: 47.8211,
+  constrainedBound10: 9.9151,
+  constrainedBound01: 48.74,
+  constrainedBound11: 13.30,
+  constrainedBound: [[47.8211,9.9151],[48.74,13.30]],
 };
